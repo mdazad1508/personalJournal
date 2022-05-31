@@ -1,0 +1,43 @@
+<%- include("partials/header"); -%>
+
+    <main>
+        <h1><%= title %></h1>
+        <p>
+            <%= content %>
+        </p>
+        <div>
+            <hr>
+            <br>
+
+           <h3> <i>latest blogs...</i></h3>
+           <br>
+           <hr>
+
+            
+<!-- 
+           <% for(var i =arr.length-1;i>0;i--){ %>
+                <h3><%= arr[i].composeTitle %>   </h3>
+                <p><%= arr[i].composeText %> </p>
+                <hr>
+                <br>
+
+          <%  } %> -->
+         
+         <%  arr.forEach(function(element){ %>
+           <h3><%= element.composeTitle %>   </h3>
+                <pre><%= element.composeText %> </pre>
+
+                <br>
+                <br>
+                <hr>
+             
+        <% }) %> 
+
+
+        </div>
+        
+    </main>
+
+
+
+    <%- include("partials/footer"); -%>

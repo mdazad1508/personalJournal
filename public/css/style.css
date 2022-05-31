@@ -1,0 +1,155 @@
+*{
+    padding:0px;
+    margin:0px;
+    
+
+
+
+}
+
+body{ 
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background:whitesmoke;
+    
+    
+}
+
+main{
+    flex:1;
+    padding-top: 100px;
+    background:rgba(165, 97, 97, 0.279);
+    padding-left: 80px;
+    padding-right: 90px;
+    
+
+  
+    
+}
+main h1{
+    color:black;
+    text-transform: capitalize;
+}
+
+nav ul{
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color:black;
+
+}
+
+nav ul li{
+    padding: 20px;
+    padding-left:40px;
+    padding-right: 40px;
+    
+}
+
+
+nav ul li a{
+
+    text-decoration: none;
+    color:white;
+
+}
+
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(53, 45, 45);
+    position:fixed;
+    
+    width:100%;
+    z-index: 1;
+    
+    
+    
+}
+
+header h1{
+    padding-left: 40px;
+    padding-top:10px;
+    color:white;
+}
+
+footer{
+    background-color: rgb(53, 45, 45);
+    text-align: center;
+    color:white;
+
+}
+
+footer p{
+color:white;
+}
+
+nav ul li a:hover{
+    color:green;
+}
+
+
+
+/* CSS */
+.button-22 {
+  align-items: center;
+  appearance: button;
+  background-color: #0276FF;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  position:absolute;
+  top:80%;
+  left: 8%;
+
+  
+  font-family: "RM Neue",sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-22:active {
+  background-color: #006AE8;
+}
+
+.button-22:hover {
+  background-color: #1C84FF;
+}
+
+form{
+    margin-left:100px;
+}
+
+header h1 a{
+    text-decoration: none;
+    color:white;
+}
+
+header h1 a:hover{
+    opacity: 0.8;
+}
+
+main div pre{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: auto;
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+
+}

@@ -1,0 +1,20 @@
+<%- include("partials/header"); -%>
+
+    <main>
+        <h1>Compose</h1>
+        <form action="/compose" method="post">
+            <label for="title" style="display:block ;"><b>Title</b></label>
+            <input type="text" name="title" id="title" autofocus >
+            <br><br>
+            <label for="text" style="display:block ;"><b>Post</b></label>
+            <textarea name="text" id="text" cols="100" rows="10"  placeholder="compose a blog..." ></textarea>
+            
+            <button type="submit" class="button-22">Publish </button>
+
+        </form>
+        
+    </main>
+
+
+
+    <%- include("partials/footer"); -%>
